@@ -1,8 +1,8 @@
 within ModelExamples;
 model TestModel
- Real x(start=1);
- parameter Real a = 10;
+  Real x(start=1);
+  parameter Real a=5;
 equation
- der(x) = -a*x;
+  der(x) = -a*x;
 
 end TestModel;
